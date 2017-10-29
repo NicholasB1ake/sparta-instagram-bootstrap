@@ -39,12 +39,11 @@ body {
  width: 200px;
   margin-left: 75px;
   margin-top: 30px;
-
 }
 
 .textform{
   width: 250px;
-  height: 65px;
+  height: 35px;
   margin: auto;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -59,6 +58,7 @@ body {
 .formtext
 {
   color: #999;
+  text-align: center;
 }
 #fbbut{
   width: 275px;
@@ -85,7 +85,7 @@ body {
 
 .rulebox{
   width: 348px;
-  height: 50px;
+  height: 20px;
 }
 .bigformbox{
   width: 350;
@@ -97,7 +97,7 @@ body {
   height: 35px;
   border-radius: 3px;
   border: 1px solid lightgrey;
-  margin-right: 70px;
+  margin-right: 90px;
   margin-bottom: 5px;
   background-color: #fafafa;
 }
@@ -109,7 +109,7 @@ body {
 #bottext{
   font-size: 15px;
   margin-right: 70px;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 .smallbox{
@@ -142,6 +142,43 @@ body {
 .badge{
   height: 136px;
   width: 140;
+}
+
+.smtext{
+  font-size: 12px;
+  word-spacing: 10px;
+  margin-left: 250px;
+  margin-top: 50px;
+  padding-top: 100px;
+}
+
+#butbox{
+  margin-right: 100px;
+}
+
+.inputs{
+  align-items: center;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100px;
+    float: left;
+    color: darkgrey;
+}
+
+#or{
+  float: left;
+  margin-left: 20px;
+  font-size: 15px;
+  color: grey;
+
 }
 
 /*Medium devices (tablets, 768px and up)
