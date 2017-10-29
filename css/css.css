@@ -130,10 +130,20 @@ body {
 }
 
 .mobile{
-  height: 102px;
   width: 350;
+  height: 205px;
   text-align: center;
 }
+
+#textpad{
+  margin-top: 20px;
+}
+
+.badge{
+  height: 136px;
+  width: 140;
+}
+
 /*Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 
