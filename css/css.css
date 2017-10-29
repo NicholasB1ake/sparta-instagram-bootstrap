@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: #fafafa;
 }
 .row{
   height: 500px;
@@ -26,9 +26,10 @@ body {
 .formbox{
   display: inline-block;
   width: 350px;
-  height: 750px;
+  height: 528px;
   border: 1px solid lightgrey;
   margin-left: 200px;
+  background-color: #fff;
 }
 #leftbox{
   width: 200px;
@@ -42,25 +43,97 @@ body {
 }
 
 .textform{
-  width: 275px;
-  height: 75px;
+  width: 250px;
+  height: 65px;
   margin: auto;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 19px;
-
 }
 
-#formtext
+.form{
+  width: 350;
+  height: 528;
+}
+
+.formtext
 {
-  color: grey;
+  color: #999;
 }
 #fbbut{
   width: 275px;
   height: 25px;
   padding: 0px;
+  background-color: #3a97f0;
+
 }
 
+#signbutt{
+  width: 275px;
+  height: 25px;
+  padding: 0px;
+  background-color: #3a97f0;
+  margin-right: 70px;
+  margin-top: 5px;
+}
+
+#textform{
+  height: 528px;
+  width: 350px;
+  color: grey;
+}
+
+.rulebox{
+  width: 348px;
+  height: 50px;
+}
+.bigformbox{
+  width: 350;
+  height: 200;
+}
+.formstyle{
+  font-size: 14px;
+  width: 250px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  margin-right: 70px;
+  margin-bottom: 5px;
+  background-color: #fafafa;
+}
+
+.boxback{
+  background-color: #faffbd;
+}
+
+#bottext{
+  font-size: 15px;
+  margin-right: 70px;
+  margin-top: 0px;
+}
+
+.smallbox{
+  display: inline-block;
+  width: 350px;
+  height: 70px;
+  border: 1px solid lightgrey;
+  margin-left: 200px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.boxfont{
+  font-size: 15px;
+  margin-top: 20px;
+  margin left: 40px;
+  text-align: center;
+}
+
+.mobile{
+  height: 102px;
+  width: 350;
+  text-align: center;
+}
 /*Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 
