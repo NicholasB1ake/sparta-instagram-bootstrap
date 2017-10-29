@@ -84,8 +84,9 @@ body {
 }
 
 .rulebox{
-  width: 348px;
+  width: 250px;
   height: 20px;
+  margin-bottom: 15px;
 }
 .bigformbox{
   width: 350;
@@ -157,7 +158,10 @@ body {
 }
 
 .inputs{
+  width: 349px;
   align-items: center;
+
+
 }
 
 hr {
@@ -168,15 +172,15 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    width: 100px;
+    width: 300px;
     float: left;
     color: darkgrey;
 }
 
 #or{
-  float: left;
+  margin: auto;
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 13px;
   color: grey;
 
 }
